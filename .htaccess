@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([0-9a-zA-Z-_]+)/([0-9]+)$  admin/inde?sef=$1&id=$2 [L,QSA]
+
+ErrorDocument 403 /izin_yok.html
+ErrorDocument 404 /bulunamadi.html

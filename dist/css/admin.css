@@ -1,0 +1,20 @@
+.navbar-default,.sidebar ul li a, .sidebar ul li a:hover, #side-menu ul li a:focus,.nav>li>a:focus, .nav>li>a:hover, body {
+    background-color: #08161d!important;
+    border-color: #000000;
+}
+.sidebar ul li a.active,.sidebar ul li a.active:hover, #side-menu ul li a.active:focus{
+    background: #000;
+}
+.sidebar ul li{
+    border-color: #000000;
+}
+#side-menu a:focus,#side-menu a:hover{
+    color:#a9a6a6;
+}
+#side-menu a, .navbar-default a{
+    color:#a9a6a6;
+}
+.bootstrap-tagsinput{
+    display: block!important;
+    height: 34px;
+}
