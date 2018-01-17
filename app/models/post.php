@@ -4,14 +4,14 @@ class post extends model
 {
     public function getAll()
     {
-       return $this->fetchAll("SELECT * FROM ha_posts");
+        return $this->fetchAll("SELECT * FROM ha_posts");
     }
     public function addNewPost($post)
     {
-        $data['user_id'] = intval($post['user_id']);
-        $data['title'] = $post['title'];
-        $data['content'] = $post['content'];
-        $data['tag_ids'] = $post['tag_ids'];
+        $data[':user_id'] = intval($post['user_id']);
+        $data[':title'] = $post['title'];
+        $data[':content'] = $post['content'];
+        $data[':tag_ids'] = $post['tag_ids'];
         $catIds = "";
         for ($i = 0; $i <= count($post['cat_ids'])-1; $i++){
             if( $i == count($post['cat_ids'])-1 ){
@@ -22,17 +22,10 @@ class post extends model
             }
 
         }
-        $data['cat_ids'] = $catIds;
+        $data[':cat_ids'] = $catIds;
         try{
-            $return = $this->query('INSERT INTO ha_posts SET 
-                                          user_id = :user_id, 
-                                          title = :title, 
-                                          content = :content, 
-                                          status = 1,
-                                          like_count = 0,
-                                          dislike_count = 0,
-                                          tag_ids = :tag_ids,
-                                          cat_ids = :cat_ids;', $data );
+            $return = $this->insert('ha_posts', $data);
+
             if( $return ){
                 return true;
             } else {
@@ -55,7 +48,13 @@ class post extends model
         return $this->fetch('SELECT * FROM ha_tags WHERE id = ?', array($id));
     }
     public function addNewTag($value){
-        $this->query('INSERT INTO ha_tags SET name = ?;', array($value));
+        $data[':name'] = $value;
+        try {
+            $this->insert('ha_tags', $data );
+        } catch (Exception $e) {
+            Tools::log('model-post-addNewTag=> ' . $e->getMessage());
+        }
+
         return $this->fetch('SELECT id FROM ha_tags WHERE name = ?', array($value));
     }
     public function convertIdToName($data)
@@ -97,8 +96,7 @@ class post extends model
     public function setStatus($id,$statu)
     {
         if( filter_var($statu, FILTER_VALIDATE_INT) === 0 || filter_var($statu, FILTER_VALIDATE_INT) ){
-            $query = "UPDATE ha_posts SET status=? WHERE id=?";
-            return $this->query($query,[$statu,$id]);
+            return $this->update('ha_posts', [':status' => $statu], [':id' => $id], 'OR');
         } else {
             Tools::log('model-post-setStatus: Hatalı veri gönderimi');
             exit;

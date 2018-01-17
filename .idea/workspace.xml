@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="c026500c-60d5-4eea-a038-143994caf3e4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/core/model.php" afterPath="$PROJECT_DIR$/app/core/model.php" />
+      <change beforePath="$PROJECT_DIR$/app/models/post.php" afterPath="$PROJECT_DIR$/app/models/post.php" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.php" afterPath="$PROJECT_DIR$/app/models/user.php" />
       <change beforePath="$PROJECT_DIR$/app/views/admin/header.php" afterPath="$PROJECT_DIR$/app/views/admin/header.php" />
       <change beforePath="$PROJECT_DIR$/dist/js/sb-admin-2.js" afterPath="$PROJECT_DIR$/dist/js/sb-admin-2.js" />
       <change beforePath="$PROJECT_DIR$/dist/js/sb-admin-2.min.js" afterPath="$PROJECT_DIR$/dist/js/sb-admin-2.min.js" />
+      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,93 +20,87 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/admin/header.php">
+      <file leaf-file-name="model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/core/model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="316" column="33" lean-forward="true" selection-start-line="316" selection-start-column="33" selection-end-line="316" selection-end-column="33" />
+            <state relative-caret-position="-148">
+              <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
               <folding>
-                <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#li#4;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#li#6;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#fetch#0;n#model#0;n#!!top" expanded="false" />
+                <element signature="n#fetchAll#0;n#model#0;n#!!top" expanded="false" />
+                <element signature="n#query#0;n#model#0;n#!!top" expanded="false" />
+                <element signature="n#insert#0;n#model#0;n#!!top" expanded="false" />
+                <element signature="n#update#0;n#model#0;n#!!top" expanded="false" />
+                <element signature="n#delete#0;n#model#0;n#!!top" expanded="false" />
+                <marker date="1516222664600" expanded="true" signature="2197:2209" ph="INSERT INTO ${$table}... " />
+                <marker date="1516222664600" expanded="true" signature="2197:2227" ph="INSERT INTO ${$table}... " />
+                <marker date="1516222664600" expanded="true" signature="2197:2228" ph="INSERT INTO ${$table}... " />
+                <marker date="1516222664600" expanded="true" signature="2197:2229" ph="INSERT INTO ${$table}... " />
+                <marker date="1516222664600" expanded="true" signature="3839:3858" ph="INSERT INTO ${$table}... " />
+                <marker date="1516222664600" expanded="true" signature="4855:4888" ph="DELETE FROM ${$table}... " />
+                <marker date="1516222664600" expanded="true" signature="4861:4888" ph="INSERT INTO ${$table}... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/admin/footer.php">
+      <file leaf-file-name="adminController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/adminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="57" lean-forward="true" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sb-admin-2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/js/sb-admin-2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="294">
+              <caret line="92" column="48" lean-forward="true" selection-start-line="92" selection-start-column="48" selection-end-line="92" selection-end-column="48" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="n#__construct#0;n#adminController#0;n#!!top" expanded="false" />
+                <element signature="n#indexAction#0;n#adminController#0;n#!!top" expanded="false" />
+                <element signature="n#loginAction#0;n#adminController#0;n#!!top" expanded="false" />
+                <element signature="n#checkLogin#0;n#adminController#0;n#!!top" expanded="false" />
+                <element signature="n#logoutAction#0;n#adminController#0;n#!!top" expanded="false" />
+                <element signature="n#dashboardAction#0;n#adminController#0;n#!!top" expanded="false" />
+                <element signature="n#userAction#0;n#adminController#0;n#!!top" expanded="false" />
+                <element signature="n#updateuserAction#0;n#adminController#0;n#!!top" expanded="false" />
+                <element signature="n#errorlogAction#0;n#adminController#0;n#!!top" expanded="false" />
+                <element signature="n#postsAction#0;n#adminController#0;n#!!top" expanded="false" />
+                <element signature="n#newpostAction#0;n#adminController#0;n#!!top" expanded="false" />
+                <element signature="n#newpostformAction#0;n#adminController#0;n#!!top" expanded="false" />
+                <element signature="n#updatepostAction#0;n#adminController#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sb-admin-2.min.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dist/js/sb-admin-2.min.js">
+      <file leaf-file-name="post.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+            <state relative-caret-position="544">
+              <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="n#getTagByName#0;n#post#0;n#!!top" expanded="false" />
+                <element signature="n#getTagById#0;n#post#0;n#!!top" expanded="false" />
+                <element signature="n#addNewTag#0;n#post#0;n#!!top" expanded="false" />
+                <element signature="n#convertIdToName#0;n#post#0;n#!!top" expanded="false" />
+                <marker date="1516222664545" expanded="true" signature="101:123" ph="SELECT * FRO... ha_posts" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sb-admin-2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/startbootstrap-sb-admin-2-gh-pages/dist/js/sb-admin-2.js">
+      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="58" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="12" column="90" lean-forward="false" selection-start-line="12" selection-start-column="90" selection-end-line="12" selection-end-column="90" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="n#getAll#0;n#user#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controller.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/core/controller.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="59" lean-forward="false" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sb-admin-2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/startbootstrap-sb-admin-2-gh-pages/js/sb-admin-2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/admin/dashboard.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9231">
-              <caret line="543" column="62" lean-forward="false" selection-start-line="543" selection-start-column="62" selection-end-line="543" selection-end-column="62" />
+            <state relative-caret-position="17">
+              <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -174,26 +172,26 @@
         <option value="$PROJECT_DIR$/var/error.txt" />
         <option value="$PROJECT_DIR$/var/error.log" />
         <option value="$PROJECT_DIR$/app/controllers/userController.php" />
-        <option value="$PROJECT_DIR$/app/models/user.php" />
         <option value="$PROJECT_DIR$/dist/css/sb-admin-2.css" />
         <option value="$PROJECT_DIR$/app/views/admin/errorlog.php" />
         <option value="$PROJECT_DIR$/app/views/admin/newpost.php" />
         <option value="$PROJECT_DIR$/app/models/category.php" />
         <option value="$PROJECT_DIR$/app/lib/tools.php" />
-        <option value="$PROJECT_DIR$/app/models/post.php" />
         <option value="$PROJECT_DIR$/app/views/admin/posts.php" />
-        <option value="$PROJECT_DIR$/app/core/model.php" />
         <option value="$PROJECT_DIR$/app/views/admin/users.php" />
         <option value="$PROJECT_DIR$/dist/css/admin.css" />
         <option value="$PROJECT_DIR$/app/views/admin/index.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/app/controllers/adminController.php" />
         <option value="$PROJECT_DIR$/app/core/controller.php" />
         <option value="$PROJECT_DIR$/app/views/admin/header.php" />
         <option value="$PROJECT_DIR$/app/views/admin/footer.php" />
         <option value="$PROJECT_DIR$/dist/js/sb-admin-2.js" />
         <option value="$PROJECT_DIR$/dist/js/sb-admin-2.min.js" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/app/controllers/adminController.php" />
+        <option value="$PROJECT_DIR$/app/models/user.php" />
+        <option value="$PROJECT_DIR$/app/models/post.php" />
+        <option value="$PROJECT_DIR$/app/core/model.php" />
       </list>
     </option>
   </component>
@@ -241,6 +239,18 @@
               <item name="hakkiayrik" type="b2602c69:ProjectViewProjectNode" />
               <item name="hakkiayrik" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="hakkiayrik" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hakkiayrik" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="hakkiayrik" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hakkiayrik" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -260,19 +270,6 @@
               <item name="hakkiayrik" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="hakkiayrik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hakkiayrik" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sb-admin-2.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="hakkiayrik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hakkiayrik" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -341,12 +338,12 @@
       <workItem from="1515359902481" duration="5711000" />
       <workItem from="1515366555947" duration="9533000" />
       <workItem from="1515404996116" duration="71586000" />
-      <workItem from="1516133435666" duration="11573000" />
+      <workItem from="1516133435666" duration="21214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101757000" />
+    <option name="totallyTimeSpent" value="111398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -381,7 +378,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -529,24 +526,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="86" column="48" lean-forward="false" selection-start-line="86" selection-start-column="48" selection-end-line="86" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -612,14 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/core/model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -633,7 +608,7 @@
         <state relative-caret-position="170">
           <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -662,16 +637,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,18 +655,6 @@
         <state relative-caret-position="68">
           <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/adminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
-          <folding>
-            <element signature="n#errorlogAction#0;n#adminController#0;n#!!top" expanded="false" />
-            <element signature="n#postsAction#0;n#adminController#0;n#!!top" expanded="false" />
-            <element signature="n#newpostAction#0;n#adminController#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -724,20 +679,12 @@
         <state relative-caret-position="231">
           <caret line="316" column="33" lean-forward="true" selection-start-line="316" selection-start-column="33" selection-end-line="316" selection-end-column="33" />
           <folding>
-            <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#li#4;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#li#6;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#li#4;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#li#6;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/core/controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="59" lean-forward="false" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -751,11 +698,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/footer.php">
+    <entry file="file://$PROJECT_DIR$/dist/js/sb-admin-2.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="57" lean-forward="true" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="5" column="60" lean-forward="false" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -764,17 +713,99 @@
         <state relative-caret-position="136">
           <caret line="8" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/js/sb-admin-2.min.js">
+    <entry file="file://$PROJECT_DIR$/app/views/admin/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        <state relative-caret-position="221">
+          <caret line="13" column="57" lean-forward="true" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/core/controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="38" column="59" lean-forward="false" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="90" lean-forward="false" selection-start-line="12" selection-start-column="90" selection-end-line="12" selection-end-column="90" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#getAll#0;n#user#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+          <folding>
+            <element signature="n#getTagByName#0;n#post#0;n#!!top" expanded="false" />
+            <element signature="n#getTagById#0;n#post#0;n#!!top" expanded="false" />
+            <element signature="n#addNewTag#0;n#post#0;n#!!top" expanded="false" />
+            <element signature="n#convertIdToName#0;n#post#0;n#!!top" expanded="false" />
+            <marker date="1516222664545" expanded="true" signature="101:123" ph="SELECT * FRO... ha_posts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/core/model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <element signature="n#fetch#0;n#model#0;n#!!top" expanded="false" />
+            <element signature="n#fetchAll#0;n#model#0;n#!!top" expanded="false" />
+            <element signature="n#query#0;n#model#0;n#!!top" expanded="false" />
+            <element signature="n#insert#0;n#model#0;n#!!top" expanded="false" />
+            <element signature="n#update#0;n#model#0;n#!!top" expanded="false" />
+            <element signature="n#delete#0;n#model#0;n#!!top" expanded="false" />
+            <marker date="1516222664600" expanded="true" signature="2197:2209" ph="INSERT INTO ${$table}... " />
+            <marker date="1516222664600" expanded="true" signature="2197:2227" ph="INSERT INTO ${$table}... " />
+            <marker date="1516222664600" expanded="true" signature="2197:2228" ph="INSERT INTO ${$table}... " />
+            <marker date="1516222664600" expanded="true" signature="2197:2229" ph="INSERT INTO ${$table}... " />
+            <marker date="1516222664600" expanded="true" signature="3839:3858" ph="INSERT INTO ${$table}... " />
+            <marker date="1516222664600" expanded="true" signature="4855:4888" ph="DELETE FROM ${$table}... " />
+            <marker date="1516222664600" expanded="true" signature="4861:4888" ph="INSERT INTO ${$table}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/adminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="92" column="48" lean-forward="true" selection-start-line="92" selection-start-column="48" selection-end-line="92" selection-end-column="48" />
+          <folding>
+            <element signature="n#__construct#0;n#adminController#0;n#!!top" expanded="false" />
+            <element signature="n#indexAction#0;n#adminController#0;n#!!top" expanded="false" />
+            <element signature="n#loginAction#0;n#adminController#0;n#!!top" expanded="false" />
+            <element signature="n#checkLogin#0;n#adminController#0;n#!!top" expanded="false" />
+            <element signature="n#logoutAction#0;n#adminController#0;n#!!top" expanded="false" />
+            <element signature="n#dashboardAction#0;n#adminController#0;n#!!top" expanded="false" />
+            <element signature="n#userAction#0;n#adminController#0;n#!!top" expanded="false" />
+            <element signature="n#updateuserAction#0;n#adminController#0;n#!!top" expanded="false" />
+            <element signature="n#errorlogAction#0;n#adminController#0;n#!!top" expanded="false" />
+            <element signature="n#postsAction#0;n#adminController#0;n#!!top" expanded="false" />
+            <element signature="n#newpostAction#0;n#adminController#0;n#!!top" expanded="false" />
+            <element signature="n#newpostformAction#0;n#adminController#0;n#!!top" expanded="false" />
+            <element signature="n#updatepostAction#0;n#adminController#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -1,4 +1,5 @@
 <?php
+ini_set('memory_limit', '256M');
 
 define('ROOT_DIR', __DIR__); // Kök dizin
 define('APP_DIR', ROOT_DIR.'/app'); // Uygulama dizini

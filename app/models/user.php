@@ -10,8 +10,7 @@ class user extends model
     public function setStatus($id,$statu)
     {
         if( filter_var($statu, FILTER_VALIDATE_INT) === 0 || filter_var($statu, FILTER_VALIDATE_INT) ){
-            $query = "UPDATE ha_users SET status=? WHERE id=?";
-            return $this->query($query,[$statu,$id]);
+            return $this->update('ha_users', [':status' => $statu], [':id' => $id], 'OR');
         } else {
             Tools::log('model-user-setStatus: Hatalı veri gönderimi');
             exit;
